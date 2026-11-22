@@ -1,6 +1,6 @@
 {
   "schemaVersion": 10,
-  "revision": "2026-11-22.even-upgrade-pacing",
+  "revision": "2026-11-22.lighter-yakult",
   "abilityText": [
     {
       "key": "FingerHeart",
@@ -502,7 +502,7 @@
   "grandmaMilkDropChance": 0.1,
   "firstRecoveryDropTime": 60,
   "recoveryPickupDelay": 0.6,
-  "recoveryHealFraction": 0.5,
+  "recoveryHealFraction": 0.2,
   "firstLevelFollowers": 258,
   "openingLevelFollowers": [
     429,
