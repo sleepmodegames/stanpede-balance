@@ -1,6 +1,6 @@
 {
   "schemaVersion": 10,
-  "revision": "2026-11-11.quieter-cash-pickups",
+  "revision": "2026-11-22.phone-pacing-pass",
   "abilityText": [
     {
       "key": "FingerHeart",
@@ -923,7 +923,7 @@
   ],
   "tourFirstClearCash": 150,
   "tourClearCashPerStop": 50,
-  "rivalMidHealth": 900,
+  "rivalMidHealth": 1125,
   "rivalMidXp": 300,
   "rivalFinalHealth": 1800,
   "rivalHealthPerStop": 0.3,
@@ -1158,22 +1158,15 @@
     {
       "fromLevel": 4,
       "waveDurationSeconds": 22,
-      "waveSpawnRate": 3.6,
-      "breatherDurationSeconds": 16,
+      "waveSpawnRate": 4.3,
+      "breatherDurationSeconds": 12,
       "breatherSpawnRate": 0
     },
     {
       "fromLevel": 5,
       "waveDurationSeconds": 22,
-      "waveSpawnRate": 4.1,
-      "breatherDurationSeconds": 16,
-      "breatherSpawnRate": 0
-    },
-    {
-      "fromLevel": 6,
-      "waveDurationSeconds": 22,
-      "waveSpawnRate": 4.1,
-      "breatherDurationSeconds": 16,
+      "waveSpawnRate": 5.0,
+      "breatherDurationSeconds": 12,
       "breatherSpawnRate": 0
     },
     {
@@ -1185,6 +1178,13 @@
     },
     {
       "fromLevel": 20,
+      "waveDurationSeconds": 22,
+      "waveSpawnRate": 8.5,
+      "breatherDurationSeconds": 16,
+      "breatherSpawnRate": 0
+    },
+    {
+      "fromLevel": 25,
       "waveDurationSeconds": 22,
       "waveSpawnRate": 10.2,
       "breatherDurationSeconds": 16,
