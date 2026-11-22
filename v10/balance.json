@@ -1,6 +1,6 @@
 {
   "schemaVersion": 10,
-  "revision": "2026-11-22.harder-tour1-steep-training",
+  "revision": "2026-11-22.even-upgrade-pacing",
   "abilityText": [
     {
       "key": "FingerHeart",
@@ -507,9 +507,18 @@
   "openingLevelFollowers": [
     429,
     600,
-    800
+    800,
+    1250,
+    1400,
+    1700,
+    1950,
+    2200,
+    2500,
+    2750,
+    3000,
+    3200
   ],
-  "levelGrowth": 1.12,
+  "levelGrowth": 1.08,
   "hypeDropFansMin": 18,
   "hypeDropFansMax": 28,
   "hypePerPickup": 50,
