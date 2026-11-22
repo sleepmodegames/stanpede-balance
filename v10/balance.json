@@ -1,6 +1,6 @@
 {
   "schemaVersion": 10,
-  "revision": "2026-11-22.phone-pacing-pass",
+  "revision": "2026-11-22.roguelite-training",
   "abilityText": [
     {
       "key": "FingerHeart",
@@ -492,7 +492,7 @@
   "openingSeconds": 120,
   "firstUpgradeBreatherSeconds": 3,
   "moveSpeed": 4.4,
-  "maxStamina": 80,
+  "maxStamina": 60,
   "playerRadius": 0.32,
   "autoTargetScreenInset": 0.5,
   "minHitInterval": 0.15,
@@ -523,7 +523,7 @@
   "fans": [
     {
       "kind": 0,
-      "charm": 8,
+      "charm": 12,
       "speed": 1.8,
       "contactDamage": 8,
       "followerValue": 30,
@@ -861,11 +861,11 @@
     7000,
     10000
   ],
-  "trainingDamagePerRank": 0.0025,
-  "trainingAttackSpeedPerRank": 0.00125,
-  "trainingHealthPerRank": 0.375,
-  "trainingHealingPerRank": 0.004375,
-  "trainingPickupPerRank": 0.00625,
+  "trainingDamagePerRank": 0.02,
+  "trainingAttackSpeedPerRank": 0.01,
+  "trainingHealthPerRank": 2.0,
+  "trainingHealingPerRank": 0.02,
+  "trainingPickupPerRank": 0.0125,
   "trainingHypeDurationPerRank": 0.00375,
   "trainingHypeDamagePerRank": 0.001875,
   "signatureHeartPierce": 1,
@@ -1158,35 +1158,35 @@
     {
       "fromLevel": 4,
       "waveDurationSeconds": 22,
-      "waveSpawnRate": 4.3,
+      "waveSpawnRate": 5.59,
       "breatherDurationSeconds": 12,
       "breatherSpawnRate": 0
     },
     {
       "fromLevel": 5,
       "waveDurationSeconds": 22,
-      "waveSpawnRate": 5.0,
+      "waveSpawnRate": 6.5,
       "breatherDurationSeconds": 12,
       "breatherSpawnRate": 0
     },
     {
       "fromLevel": 10,
       "waveDurationSeconds": 22,
-      "waveSpawnRate": 6.4,
+      "waveSpawnRate": 8.32,
       "breatherDurationSeconds": 16,
       "breatherSpawnRate": 0
     },
     {
       "fromLevel": 20,
       "waveDurationSeconds": 22,
-      "waveSpawnRate": 8.5,
+      "waveSpawnRate": 11.05,
       "breatherDurationSeconds": 16,
       "breatherSpawnRate": 0
     },
     {
       "fromLevel": 25,
       "waveDurationSeconds": 22,
-      "waveSpawnRate": 10.2,
+      "waveSpawnRate": 13.26,
       "breatherDurationSeconds": 16,
       "breatherSpawnRate": 0
     }
