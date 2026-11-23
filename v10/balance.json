@@ -353,7 +353,7 @@
   "sfxEventCutoff": 7200,
   "sfxArrivalCutoff": 6500,
   "sfxPopGap": 0.16,
-  "sfxFaintVolume": 0.55,
+  "sfxFaintVolume": 0,
   "sfxCashVolume": 0.2,
   "sfxCashPitch": 1.26,
   "sfxCashCutoff": 14000,
