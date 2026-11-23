@@ -1,6 +1,6 @@
 {
   "schemaVersion": 10,
-  "revision": "2026-11-23.slower-fangirls",
+  "revision": "2026-11-23.smaller-early-waves",
   "abilityText": [
     {
       "key": "FingerHeart",
@@ -507,12 +507,12 @@
   "openingLevelFollowers": [
     429,
     600,
-    800,
-    1250,
-    1400,
-    1700,
-    1950,
-    2200,
+    600,
+    940,
+    1050,
+    1280,
+    1460,
+    1650,
     2500,
     2750,
     3000,
@@ -1160,21 +1160,21 @@
     {
       "fromLevel": 4,
       "waveDurationSeconds": 22,
-      "waveSpawnRate": 5.59,
+      "waveSpawnRate": 3.9,
       "breatherDurationSeconds": 12,
       "breatherSpawnRate": 0
     },
     {
       "fromLevel": 5,
       "waveDurationSeconds": 22,
-      "waveSpawnRate": 6.5,
+      "waveSpawnRate": 4.6,
       "breatherDurationSeconds": 12,
       "breatherSpawnRate": 0
     },
     {
       "fromLevel": 7,
       "waveDurationSeconds": 10,
-      "waveSpawnRate": 19.5,
+      "waveSpawnRate": 13.7,
       "breatherDurationSeconds": 20,
       "breatherSpawnRate": 0
     },
