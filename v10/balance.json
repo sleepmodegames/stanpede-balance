@@ -1,6 +1,6 @@
 {
   "schemaVersion": 10,
-  "revision": "2026-11-23.smaller-early-waves",
+  "revision": "2026-11-23.survivor-pace-fangirls",
   "abilityText": [
     {
       "key": "FingerHeart",
@@ -533,7 +533,7 @@
     {
       "kind": 0,
       "charm": 12,
-      "speed": 1.6,
+      "speed": 1.1,
       "contactDamage": 8,
       "followerValue": 30,
       "moneyValue": 1,
