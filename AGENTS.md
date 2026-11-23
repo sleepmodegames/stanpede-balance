@@ -139,7 +139,8 @@ preserved, and v5 uses its own balance cache.
 - Ability arrays have five ranks. `fingerHeartPower`, `sparklePower`, `lightstickDamage`, `soundWaveDamage`, `photocardDamage`, `confettiDamage`, `fancamDamage` are internal values; cards show power ×10. Cooldowns are seconds.
 - Shooting Star uses the stable `Wink` key. `sparklePower` is total volley power, divided across its shot count; see the v5 star fields above. The old spread/aim/pierce fields no longer control its behavior.
 - `powerPerRank`, `protectionPerRank`, `cooldownReductionPerRank`, `areaPerRank`: match passive effects, written as fractions (0.15 means 15%).
-- `training*`, signature settings and `careerGoalRewards`: permanent progression. Costs are forty entries per track.
+- `training*` and signature settings: permanent progression. Costs are forty entries per track.
+- `careerGoalRewards`: twenty quest rewards in Home's queue order. Keep exactly twenty entries, with the last (clear all six tours) the largest.
 - `tourCashMultipliers`: six repeatable Training-cash rates, currently 1 / 1.25 / 1.5 / 1.75 / 2 / 2.25. Applies to bills and follower support, including Exit to Home; match XP, career goals and first-clear bonuses stay separate. Each run locks its rate and preserves fractional earnings.
 - `tourHealthPerStop`, `tourArrivalsPerStop`, `rivalHealthPerStop`: linear increases per tour after Tour 1. Current increments are 20% fan endurance, 12% regular arrival pressure and 30% rival endurance. Do not infer an hours-to-progress target from these values.
 - `maxHostiles`: strict shared active cap across ordinary arrivals, swarms, reveals and rival summons. Preserve 90 unless a requested change and testing justify otherwise. Required encounters make room; rejected arrivals do not queue.
