@@ -1,6 +1,6 @@
 # STANPEDE balance
 
-This repository controls the live balance of STANPEDE, a K-pop survivors game. The game code and artwork live separately in `yangstax/ksurvivor`.
+This repository controls the live balance of STANPEDE, a K-pop survivors game. The game code and artwork live separately in `sleepmodegames/ksurvivor`.
 
 
 ## Forty-rank Training (v10, 11 November)
@@ -47,10 +47,11 @@ for 40-rank purchases, migration and milestone feedback.
 2. Change only the requested values. Preserve the existing unrelated balance. Keep names short, clear and affectionate; use Charm power, faint, health, and Chart Topper. Never introduce violent wording.
 3. Keep upgrade keys and fan kind IDs stable. Change `abilityText[].name` to rename an upgrade; update its descriptions when needed. Fan kind IDs: 0 ordinary, 1 filmer, 2 banner, 3 dad, 4 grandma, 5 rival fans, 6 rival idol, 7 headphones, 8 plush tosser.
 4. Install `requirements.txt`, then run `python3 -m unittest test_validation.py` and `python3 validate.py`.
-5. Commit and push to **main** as `yangstax` when the user requests a completed change. These instructions authorize routine config publication for a requested balance change; no game build or local Mac is needed.
+5. Commit and push to **main** as `sleepmodegames` when the user requests a completed change. These instructions authorize routine config publication for a requested balance change; no game build or local Mac is needed.
 6. Watch the GitHub Actions result, then fetch the live URL with a fresh query parameter and verify the changed values. Report the actual published revision and exact changes. A successful push alone does not prove publication.
 
-Current live URL: https://yangstax.github.io/stanpede-balance/v10/balance.json
+Current live URL: https://sleepmodegames.github.io/stanpede-balance/v10/balance.json
+The GitHub account `yangstax` was renamed `sleepmodegames` on 23 November 2026. The old `yangstax.github.io` address no longer serves this config; never fetch from it.
 
 Version 10 contains 297 settings, nine fan kinds, twenty ability texts and eighteen persistent ability unlock rows. Use schemaVersion 10. Names and five-rank descriptions are configurable; IDs and array sizes are the app contract. The stable `FancamFlash` key now means Selfie Drone. `BubblePop` and `PhotoStandee` are new keys. `LaserLight` and `BoomBox` remain retired.
 
@@ -211,7 +212,7 @@ Neither depends on elapsed time. The old ramp, timed swarms, local depletion and
 multipliers and time-strength fields are removed from v7. `urgentBannerSeconds` retains the previous event
 banner duration. Intro protection (`openingSeconds`/`firstUpgradeBreatherSeconds`) remains separate.
 
-The [small example](https://github.com/yangstax/ksurvivor/blob/main/Tools/Balance/proposals/wave-breather.example.json) shows the supported pacing fields;
+The [small example](https://github.com/sleepmodegames/ksurvivor/blob/main/Tools/Balance/proposals/wave-breather.example.json) shows the supported pacing fields;
 it is a fragment, not a complete publishable snapshot. The versioned v7 endpoint needs one app update.
 Later durations/rates/level presets, costs/class profiles and disengagement thresholds are config-only
 edits from the phone balance chat. Keep v1–6 values and career v4 progress intact.

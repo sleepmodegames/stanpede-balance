@@ -1,6 +1,6 @@
 # STANPEDE live balance
 
-[Live config](https://yangstax.github.io/stanpede-balance/v10/balance.json) · [Edit on GitHub](https://github.com/yangstax/stanpede-balance/edit/main/v10/balance.json)
+[Live config](https://sleepmodegames.github.io/stanpede-balance/v10/balance.json) · [Edit on GitHub](https://github.com/sleepmodegames/stanpede-balance/edit/main/v10/balance.json)
 
 `v10/balance.json` is the current source for pacing, fan stats, ability values/names/descriptions/unlocks, tour rewards/payouts, XP, Hype, pickups and Training. Pushing a valid change to main publishes it through GitHub Pages. The updated app applies settings between matches and keeps a valid offline copy. Versions 1–9 remain available for older apps; v4 receives the supported Wave/Orbit changes described below.
 
@@ -57,7 +57,7 @@ Use a **Codex Cloud** environment connected to this repository. Once the environ
 
 > Keep fan/single/rival levels at 12/16/20, but increase late swarm sizes by 10%. Validate, commit and publish to main, then verify the live config.
 
-The repo's `AGENTS.md` supplies the publishing and validation instructions. Your computer can be asleep. Creating the environment is a one-time web/desktop step: Settings → Codex Cloud → Environments → Create environment, choose `yangstax/stanpede-balance`, let setup install `requirements.txt` and run the checks, then Publish.
+The repo's `AGENTS.md` supplies the publishing and validation instructions. Your computer can be asleep. Creating the environment is a one-time web/desktop step: Settings → Codex Cloud → Environments → Create environment, choose `sleepmodegames/stanpede-balance`, let setup install `requirements.txt` and run the checks, then Publish.
 
 [Official Cloud setup](https://learn.chatgpt.com/docs/environments/cloud-environments)
 
@@ -133,7 +133,7 @@ Neither depends on elapsed time. The old ramp, timed swarms, local depletion and
 multipliers and time-strength fields are removed from v7. `urgentBannerSeconds` retains the previous event
 banner duration. Intro protection (`openingSeconds`/`firstUpgradeBreatherSeconds`) remains separate.
 
-The [small example](https://github.com/yangstax/ksurvivor/blob/main/Tools/Balance/proposals/wave-breather.example.json) shows the supported pacing fields;
+The [small example](https://github.com/sleepmodegames/ksurvivor/blob/main/Tools/Balance/proposals/wave-breather.example.json) shows the supported pacing fields;
 it is a fragment, not a complete publishable snapshot. The versioned v7 endpoint needs one app update.
 Later durations/rates/level presets, costs/class profiles and disengagement thresholds are config-only
 edits from the phone balance chat. Keep v1–6 values and career v4 progress intact.
