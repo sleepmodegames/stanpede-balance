@@ -492,7 +492,7 @@
   "openingSeconds": 120,
   "firstUpgradeBreatherSeconds": 3,
   "moveSpeed": 4.4,
-  "maxStamina": 50,
+  "maxStamina": 45,
   "playerRadius": 0.32,
   "autoTargetScreenInset": 0.5,
   "minHitInterval": 0.15,
@@ -551,8 +551,8 @@
     {
       "kind": 2,
       "charm": 64,
-      "speed": 2.2,
-      "contactDamage": 6,
+      "speed": 3.4,
+      "contactDamage": 10,
       "followerValue": 120,
       "moneyValue": 2,
       "radius": 0.32
@@ -870,9 +870,9 @@
     7000,
     10000
   ],
-  "trainingDamagePerRank": 0.02,
+  "trainingDamagePerRank": 0.03,
   "trainingAttackSpeedPerRank": 0.01,
-  "trainingHealthPerRank": 2.0,
+  "trainingHealthPerRank": 3.0,
   "trainingHealingPerRank": 0.02,
   "trainingPickupPerRank": 0.0125,
   "trainingHypeDurationPerRank": 0.00375,
