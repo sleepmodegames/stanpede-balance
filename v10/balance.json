@@ -498,7 +498,7 @@
   "minHitInterval": 0.15,
   "fanHitCooldown": 1,
   "pickupRadius": 1.5,
-  "cashMagnetRadius": 0.9,
+  "cashMagnetRadius": 1.2,
   "grandmaMilkDropChance": 0.1,
   "firstRecoveryDropTime": 60,
   "recoveryPickupDelay": 0.6,
@@ -946,20 +946,20 @@
     20
   ],
   "soundWaveCooldown": [
-    3.6,
-    3.45,
-    3.3,
-    3.2,
-    3.1
+    4.6,
+    4.5,
+    4.4,
+    4.3,
+    4.2
   ],
   "soundWaveRadius": [
-    2.5,
-    3,
-    3.25,
-    3.5,
-    3.75
+    2,
+    2.2,
+    2.3,
+    2.4,
+    2.5
   ],
-  "soundWaveKnockback": 0.2,
+  "soundWaveKnockback": 0,
   "headphoneWaveDamageMult": 0.65,
   "headphoneKnockbackMult": 0.2,
   "dadKnockbackMult": 0.25,
@@ -1202,8 +1202,8 @@
   ],
   "abilityTiming": {
     "Lightstick": {
-      "activeSeconds": 3,
-      "restSeconds": 2
+      "activeSeconds": 2,
+      "restSeconds": 3
     }
   },
   "filmerRange": 6.5,
